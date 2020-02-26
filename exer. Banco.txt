@@ -1,0 +1,1 @@
+select * from tb_filial tbf INNER JOIN tb_produto tbp INNER JOIN tb_estoque tbe ON tbf.id_filial = tbp.id_produto = tbe.id_filial;
